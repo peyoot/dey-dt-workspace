@@ -96,6 +96,7 @@ fi
 #  - Run 'recovery' and let the system boot after
 setenv bootcmd "
 	env default -a;
+	setenv mtdparts mtdparts=gpmi-nand:3m(bootloader),1m(environment),1m(safe),12m(linux),14m(recovery),150m(rootfs),-(update);
 	saveenv;
 	echo \"\";
 	echo \"\";
