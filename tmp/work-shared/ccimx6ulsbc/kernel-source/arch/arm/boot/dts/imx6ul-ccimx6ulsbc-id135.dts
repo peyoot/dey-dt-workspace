@@ -11,3 +11,13 @@
 
  /* Digi ConnectCore 6UL WiFi-Bluetooth SBC Pro */
  #include "imx6ul-ccimx6ulsbc-wb.dts"
+
+/* Add dts version dummynode here */
+
+/ {
+	version-20200506 {
+		4020pm;
+	};
+};
+
+  
